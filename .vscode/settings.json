@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Hackathon project.slnx",
+    "dotnet.defaultSolution": "unity-game-name-will-be-updated-.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
