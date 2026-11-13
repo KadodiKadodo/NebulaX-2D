@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142ea3fe9ceb605229cf54f74423b5e2, type: 3}
+  m_Name: Resource_Phobos_rock
+  m_EditorClassIdentifier: Assembly-CSharp::Resource
+  <DisplayName>k__BackingField: PhobosRock
+  <Icon>k__BackingField: {fileID: 532612166, guid: 428fdefb0655821db87f41d703134c4e, type: 3}
+  <Description>k__BackingField: phobos rock samples
+  <Value>k__BackingField: 50

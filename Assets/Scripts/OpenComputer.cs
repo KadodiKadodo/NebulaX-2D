@@ -50,12 +50,12 @@ public class OpenComputer : MonoBehaviour, IInteractable
     public void OnNotTouchingPlayer()
     {
         sr.color = OriginalColor;
-        promptText.SetActive(false);
+        if (promptText != null) promptText.SetActive(false); 
     }
     public void OnTouchingPlayer()
     {
-        sr.color = Color.red;
-        promptText.SetActive(true);
+        sr.color = Color.grey;
+        if (promptText != null) promptText.SetActive(true);
     }
 
     

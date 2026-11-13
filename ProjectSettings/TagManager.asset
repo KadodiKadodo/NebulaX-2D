@@ -38,8 +38,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Space
+    uniqueID: 4162653635
+    locked: 0
   - name: FloorTiles
     uniqueID: 1397851989
+    locked: 0
+  - name: Objects
+    uniqueID: 275622689
     locked: 0
   - name: Default
     uniqueID: 0
