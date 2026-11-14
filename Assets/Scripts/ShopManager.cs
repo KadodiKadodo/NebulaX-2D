@@ -1,12 +1,13 @@
 using PlayerScripts;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class ShopManager : MonoBehaviour
 {
     [Header("UI References")]
-    public TextMeshProUGUI budgetText;
-    public TextMeshProUGUI feedbackText; 
+    public Text budgetText; 
+    public Text feedbackText;
 
     [Header("Player Stats")]
     public int currentBudget = 500; 
@@ -18,13 +19,20 @@ public class ShopManager : MonoBehaviour
 
     public void SellResources()
     {
+        if (Inventory.Instance == null)
+        {
+            if(feedbackText) feedbackText.text = "Error: No Player found!";
+            Debug.LogWarning("Tried to sell, but Inventory.Instance is null. Did you start the scene directly?");
+            return;
+        }
+        
         int moneyEarned = Inventory.Instance.GetTotalValue();
         if (moneyEarned > 0)
         {
             currentBudget += moneyEarned;
             Inventory.Instance.ClearInventory();
             UpdateUI();
-            if(feedbackText) feedbackText.text = $"Sold for ${moneyEarned}!";
+            if(feedbackText) feedbackText.text = $"Total samples sold for ${moneyEarned}!";
         }
         else
         {
@@ -35,26 +43,26 @@ public class ShopManager : MonoBehaviour
     // --- ENGINE UPGRADES ---
     public void BuyEngineLevel1()
     {
-        int cost = 300;
+        int cost = 700;
         if (currentBudget >= cost && PlayerStats.engineLevel == 0)
         {
             currentBudget -= cost;
             PlayerStats.engineLevel = 1;
             UpdateUI();
-            if(feedbackText) feedbackText.text = "Engine Level 1! (Reaches Io/Europa)";
+            if(feedbackText) feedbackText.text = "Engine Level 1! (Reaches Europa)";
         }
         else { HandleError(PlayerStats.engineLevel > 0, cost); }
     }
 
     public void BuyEngineLevel2()
     {
-        int cost = 700;
+        int cost = 1100;
         if (currentBudget >= cost && PlayerStats.engineLevel == 1)
         {
             currentBudget -= cost;
             PlayerStats.engineLevel = 2;
             UpdateUI();
-            if(feedbackText) feedbackText.text = "Engine Level 2! (Reaches Callisto/Titan)";
+            if(feedbackText) feedbackText.text = "Engine Level 2! (Reaches Titan)";
         }
         else { HandleError(PlayerStats.engineLevel > 1, cost); }
     }
@@ -68,20 +76,20 @@ public class ShopManager : MonoBehaviour
             currentBudget -= cost;
             PlayerStats.oxygenLevel = 1;
             UpdateUI();
-            if(feedbackText) feedbackText.text = "Oxygen Tank Level 1! (+50 Max)";
+            if(feedbackText) feedbackText.text = "Oxygen Tank upgraded (+50 Max)";
         }
         else { HandleError(PlayerStats.oxygenLevel > 0, cost); }
     }
 
     public void BuyOxygenLevel2()
     {
-        int cost = 500;
+        int cost = 400;
         if (currentBudget >= cost && PlayerStats.oxygenLevel == 1)
         {
             currentBudget -= cost;
             PlayerStats.oxygenLevel = 2;
             UpdateUI();
-            if(feedbackText) feedbackText.text = "Oxygen Tank Level 2! (+100 Max)";
+            if(feedbackText) feedbackText.text = "Oxygen Tank upgraded (+100 Max)";
         }
         else { HandleError(PlayerStats.oxygenLevel > 1, cost); }
     }
@@ -96,7 +104,7 @@ public class ShopManager : MonoBehaviour
         }
         else
         {
-            feedbackText.text = $"Need ${cost}!";
+            feedbackText.text = $"The item exceeds your budget";
         }
     }
 

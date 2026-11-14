@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/AstraExpansion/Scenes/AstraMainMenu.unity
+    guid: e34fcb1df6cffdaeabca8253ee3f441f
+  - enabled: 1
+    path: Assets/AstraExpansion/Scenes/AstraMissionDemo.unity
+    guid: fd94c893223e6033392993ca70abc4a5
+  - enabled: 1
+    path: Assets/AstraExpansion/Scenes/AstraShop.unity
+    guid: 73a6cdae43ce043508f6f81b23c757bf
+  - enabled: 1
+    path: Assets/AstraExpansion/Scenes/AstraMoonSelection.unity
+    guid: 2be0dc07f4c182f4480fd9f05c680b24
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -14,5 +26,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Phobos.unity
     guid: 855a4bbf96156bb00a9eb09b21b98446
+  - enabled: 1
+    path: Assets/Scenes/Europa.unity
+    guid: 7363c3d24c072fbf8a9aaafb7ba1a6cd
+  - enabled: 1
+    path: Assets/Scenes/Titan.unity
+    guid: 8c57b1d0c8cce64d28a4efedbfc264dc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
