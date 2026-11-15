@@ -110,188 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tools_4
+      name: rocks - phobos-261e_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3
-        width: 27
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9dacabe113bd4ee20800000000000000
-      internalID: 3379066624450153177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tools_5
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 3
-        width: 27
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 380435fa76f9f1710800000000000000
-      internalID: 1666225654822289539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tools_6
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 2
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06298d229f41f14f0800000000000000
-      internalID: -855942343913074080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tools_7
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 3
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 563b50d1f895e6340800000000000000
-      internalID: 4858919519181452133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rock9
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 96
-        width: 28
-        height: 17
-      alignment: 9
-      pivot: {x: 0.5357143, y: 0.1764706}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1895c4b8a9bc3dfd0800000000000000
-      internalID: -2318285518543234687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rock7
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 95
-        width: 56
-        height: 18
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2777778}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c061c53c839478950800000000000000
-      internalID: 6451205499376113164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rock4
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 31
-        width: 22
-        height: 13
-      alignment: 9
-      pivot: {x: 0.5, y: 0.15384616}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fff16e2569bf6080800000000000000
-      internalID: -9191924470218883087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tools_11
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 5
+        x: 5
+        y: 97
         width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 543093f0a52e19590800000000000000
-      internalID: -7669099814004915387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rock8
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 79
-        width: 31
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -299,153 +123,175 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7ad71a80951e5e80800000000000000
-      internalID: -8188083361976690054
+      spriteID: 9b46f9c7ee3020245acc04a58b237a24
+      internalID: -1151741158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rock5
+      name: rocks - phobos-261e_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 60
-        width: 32
-        height: 18
+        x: 46
+        y: 96
+        width: 52
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 50715578e818151f0800000000000000
-      internalID: -1057921988299516155
+      spriteID: 5a68cd93298aa114ca597065d4832994
+      internalID: -2004702350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rock6
+      name: rocks - phobos-261e_2
       rect:
         serializedVersion: 2
-        x: 51
-        y: 76
-        width: 59
-        height: 19
-      alignment: 9
-      pivot: {x: 0.5084746, y: 0.31578946}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a3dd6ca406f55610800000000000000
-      internalID: 1609462941788001184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tools_15
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 5
-        width: 26
-        height: 26
+        x: 4
+        y: 80
+        width: 27
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 73439f4e086233610800000000000000
-      internalID: 1599664627685864503
+      spriteID: 1e7575121c4e74944aa765480f89f16c
+      internalID: 329560136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rock3
+      name: rocks - phobos-261e_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 80
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47787a94fc61f7c4997a623a25d1850f
+      internalID: -569110036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocks - phobos-261e_4
       rect:
         serializedVersion: 2
         x: 2
-        y: 31
+        y: 63
         width: 30
-        height: 13
-      alignment: 9
-      pivot: {x: 0.5, y: 0.15384616}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a12e71c6f2793c570800000000000000
-      internalID: 8485792352828908058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tools_17
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 1
-        width: 28
-        height: 28
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d640bc06e25d27a40800000000000000
-      internalID: 5364584501320811629
+      spriteID: 65768faebb3074148a09ad3b4128537e
+      internalID: -904567711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rock2
+      name: rocks - phobos-261e_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 32
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab1b44fc872f7b4499f73cedf7d2f46
+      internalID: 1716707879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocks - phobos-261e_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 32
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b1c7556992ab94293e84ce3497c4de
+      internalID: 10484215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocks - phobos-261e_7
       rect:
         serializedVersion: 2
         x: 72
-        y: 31
-        width: 23
-        height: 18
-      alignment: 9
-      pivot: {x: 0.5097875, y: 0.19141176}
+        y: 32
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 49391214ade97f670800000000000000
-      internalID: 8572495075955807124
+      spriteID: 63c8d8563b667a34fb4f7fc7219893ce
+      internalID: -780613492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tools_19
+      name: rocks - phobos-261e_8
       rect:
         serializedVersion: 2
-        x: 8
-        y: 6
-        width: 23
+        x: 65
+        y: 1
+        width: 30
         height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -453,98 +299,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3d7b6977bd5ca3230800000000000000
-      internalID: 3619422796940490707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tools_20
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 3
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b3a1e5f341648de0800000000000000
-      internalID: -1331832645278915656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tools_21
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 3
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf233cf6f9329c210800000000000000
-      internalID: 1353652330683380476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rock1
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 0
-        width: 34
-        height: 29
-      alignment: 9
-      pivot: {x: 0.5, y: 0.06896552}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b38f35b73e5db5c70800000000000000
-      internalID: 8960991056587126843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tools_23
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 6
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63352bd78cdd0eb70800000000000000
-      internalID: 8926378314620359478
+      spriteID: 674f83fea281e1f43a457d8c3b5d9dc9
+      internalID: 1260357640
       vertices: []
       indices: 
       edges: []
@@ -561,32 +319,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Rock1: 8960991056587126843
-      Rock2: 8572495075955807124
-      Rock3: 8485792352828908058
-      Rock4: -9191924470218883087
-      Rock5: -1057921988299516155
-      Rock6: 1609462941788001184
-      Rock7: 6451205499376113164
-      Rock8: -8188083361976690054
-      Rock9: -2318285518543234687
-      Tools_0: 2860006914309871096
-      Tools_1: -2376758258213490438
-      Tools_11: -7669099814004915387
-      Tools_15: 1599664627685864503
-      Tools_17: 5364584501320811629
-      Tools_19: 3619422796940490707
-      Tools_2: 6232742816020895870
-      Tools_20: -1331832645278915656
-      Tools_21: 1353652330683380476
-      Tools_23: 8926378314620359478
-      Tools_3: -3569232777630780389
-      Tools_4: 3379066624450153177
-      Tools_5: 1666225654822289539
-      Tools_6: -855942343913074080
-      Tools_7: 4858919519181452133
+      rocks - phobos-261e_0: -1151741158
+      rocks - phobos-261e_1: -2004702350
+      rocks - phobos-261e_2: 329560136
+      rocks - phobos-261e_3: -569110036
+      rocks - phobos-261e_4: -904567711
+      rocks - phobos-261e_5: 1716707879
+      rocks - phobos-261e_6: 10484215
+      rocks - phobos-261e_7: -780613492
+      rocks - phobos-261e_8: 1260357640
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
