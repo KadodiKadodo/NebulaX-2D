@@ -260,7 +260,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 807715105}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: OpenComputer, Assembly-CSharp
         m_MethodName: CloseMenu
         m_Mode: 1
@@ -25090,8 +25090,8 @@ GameObject:
   - component: {fileID: 807715109}
   - component: {fileID: 807715108}
   - component: {fileID: 807715107}
-  - component: {fileID: 807715105}
   - component: {fileID: 807715106}
+  - component: {fileID: 807715111}
   m_Layer: 0
   m_Name: Computer
   m_TagString: Untagged
@@ -25099,20 +25099,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &807715105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807715104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce8ac38b1b2e89971a7ab979c1e89bc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  promptText: {fileID: 780791814}
-  menuPanel: {fileID: 648140225}
 --- !u!50 &807715106
 Rigidbody2D:
   serializedVersion: 5
@@ -25296,6 +25282,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &807715111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807715104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b345726a8bb373d8ac4f483f478039, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rocket
+  promptText: {fileID: 780791814}
+  returnMenuPanel: {fileID: 648140225}
 --- !u!1 &1056622955
 GameObject:
   m_ObjectHideFlags: 0
